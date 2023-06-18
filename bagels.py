@@ -24,7 +24,6 @@ def main():
         guess = 1
         while guess <= max_guesses:
             print("Guess {}".format(guess))
-            print(number)
 
             user_guess = input("> ")
             if user_guess == number:
